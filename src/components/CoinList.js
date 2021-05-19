@@ -14,7 +14,7 @@ const CoinList = () => {
         setCoins(result);
       })
       .catch((err) => console.log(err));
-  }, []);
+  }, [coins]);
   return (
     <div>
       {coins.map((coin) => {

@@ -1,9 +1,11 @@
 import "./App.css";
-import CoinList from "./components/CoinList"
+import CoinList from "./components/CoinList";
 function App() {
-  return <div className="App">
-    <CoinList></CoinList>
-  </div>;
+  return (
+    <div className="App">
+      <CoinList></CoinList>
+    </div>
+  );
 }
 
 export default App;
