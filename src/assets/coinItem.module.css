@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 90%;
+    margin: auto;
+}
+
+.col{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    line-height: 80px;
+
+}
+
+
+.coin_symbol{
+    text-transform: uppercase;
+}
+
+.coin_name{
+    font-size: 18px;
+}
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+
+.image{
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+}
+
