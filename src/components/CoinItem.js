@@ -8,7 +8,7 @@ const CoinItem = (props) => {
         <p className={classes.coin_symbol}>{props.symbol}</p>
       </div>
       <div className={classes.col}>
-        <p>$ {props.price}</p>
+        <p>$ {props.price.toLocaleString()}</p>
         <p>$ {props.volume.toLocaleString()}</p>
         {props.percent < 0 ? (
           <p className={classes.red}>{props.percent.toFixed(2)} %</p>
